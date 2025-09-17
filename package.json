@@ -1,0 +1,28 @@
+{
+  "name": "nans-bot-utils",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord bot for Unturned servers by NansStudios",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "unturned",
+    "moderation"
+  ],
+  "author": "NansStudios",
+  "license": "MIT"
+}

@@ -1,0 +1,47 @@
+{
+    "bot": {
+      "guildID": "your_test_guild_id_here",
+      "prefix": "!",
+      "defaultCooldown": 3
+    },
+    "database": {
+      "path": "./data/bot.db"
+    },
+    "ai": {
+      "openAIKey": "your_openai_api_key_here"
+    },
+    "unturned": {
+      "serverIP": "your_unturned_server_ip",
+      "serverPort": "your_unturned_server_port",
+      "rconPassword": "your_rcon_password"
+    },
+    "dashboard": {
+      "url": "http://localhost:3000",
+      "secret": "f9Xq7pN3vLz8QwR1eJt6aH4kVb2mYxD0sPz5uF8rGqHcL1wN"
+    },
+    "logging": {
+      "level": "info",
+      "file": "./logs/bot.log"
+    },
+    "economy": {
+      "dailyRewardMin": 100,
+      "dailyRewardMax": 500,
+      "workRewardMin": 50,
+      "workRewardMax": 200
+    },
+    "moderation": {
+      "autoModEnabled": true,
+      "spamThreshold": 5,
+      "spamInterval": 10000
+    },
+    "leveling": {
+      "xpPerMessage": 15,
+      "xpCooldown": 60000,
+      "levelUpMultiplier": 100
+    },
+    "embed": {
+      "color": "#00AAFF",
+      "footerText": "Nans Bot Utils | By Nanaimo2013"
+    }
+  }
+  
